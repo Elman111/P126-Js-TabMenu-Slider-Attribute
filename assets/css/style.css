@@ -1,0 +1,105 @@
+/* tab menu */
+
+/* .tab-menu .header{
+    display: flex;
+    background-color: darkgray;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid darkgray;
+    transition: all 0.3s;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.tab-menu .header div{
+    padding-left:15px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-right: 9px;
+    width: 100px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tab-menu .header div:hover{
+  background-color: rgb(204, 201, 201);
+}
+
+.tab-menu .content{
+    border: 1px solid darkgray;
+    padding: 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.active{
+    background-color: rgb(204, 201, 201);
+} */
+
+
+
+/* slider */
+
+.slider{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.slider .img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.slider .img div{
+   opacity: 0;
+   transition: all 0.5s;
+}
+
+.slider .img img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.slider .icons .icon{
+    position: absolute;
+    top: 170px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: gray;
+    padding: 14px;  
+    opacity: 0.7;
+
+
+}
+.slider .icons .icon:hover{
+    opacity: 1;
+}
+
+.slider .icons .left{
+    position: absolute;
+    left: 10px;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+
+}
+.slider .icons .right{
+    position: absolute;
+    right: 10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.active{
+    opacity: 1 !important;
+}
